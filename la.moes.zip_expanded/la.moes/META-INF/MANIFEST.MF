@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Moes
+Bundle-SymbolicName: la.moes
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: la.moes
+Service-Component: OSGI-INF/*.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Require-Bundle: org.adempiere.base,
+ org.adempiere.ui.zk;bundle-version="8.2.0"
+Import-Package: org.adempiere.base,
+ org.adempiere.exceptions,
+ org.adempiere.model,
+ org.compiere.acct,
+ org.compiere.model,
+ org.compiere.process,
+ org.compiere.util,
+ org.osgi.service.component.annotations;version="1.3.0";resolution:=optional,
+ org.osgi.service.event;version="1.4.0"
+

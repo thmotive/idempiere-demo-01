@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Moes
+Bundle-SymbolicName: th.moes
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.adempiere.base;bundle-version="11.0.0",
+ org.adempiere.base.process;bundle-version="11.0.0",
+ org.adempiere.plugin.utils;bundle-version="11.0.0",
+ org.adempiere.ui.zk;bundle-version="11.0.0"
+Import-Package: org.apache.poi.ss.usermodel;version="4.1.2",
+ org.osgi.service.event;version="1.4.0"
+Automatic-Module-Name: th.moes
+Bundle-RequiredExecutionEnvironment: JavaSE-11
